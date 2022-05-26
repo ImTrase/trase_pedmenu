@@ -10,7 +10,7 @@ Preview: https://youtu.be/mXAOzjNnttA
 - Easy Configuration File
 - Open Source
 
-## Instalation
+## Installation
 ```
 1) Download Resource
 2) Drag into resources
