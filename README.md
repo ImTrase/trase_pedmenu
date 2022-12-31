@@ -2,6 +2,7 @@
 FiveM Whitelisted Ped-Menu
 
 Preview: https://youtu.be/mXAOzjNnttA
+Docs / Installation Guide: https://docs.trase.dev/
 
 ## 🌐 Features
 - New optimized code, utilizes correct syntax from lua v5.4.
