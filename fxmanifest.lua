@@ -1,18 +1,18 @@
+-----------------------------------------------------
+---- For more scripts and updates, visit ------------
+--------- https://discord.gg/trase ------------------
+-----------------------------------------------------
+
 fx_version 'cerulean'
-games { 'gta5' }
-author 'Trase#0001'
-description 'FiveM Ped Menu'
-version '1.0.2'
+game 'gta5'
+
+author 'Trase'
 lua54 'yes'
+version '2.0.0'
 
-client_scripts {
-    'client/warmenu.lua',
-    'client/client.lua'
+shared_scripts {
+    '@ox_lib/init.lua',
+    'config.lua'
 }
-
-server_scripts {
-    'config.lua',
-    'server/server.lua'
-}
-
-dependencies { 'trase_discord' }
+client_script 'client/client.lua'
+server_script 'server/server.lua'

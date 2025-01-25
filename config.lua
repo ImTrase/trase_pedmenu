@@ -1,16 +1,30 @@
-config = {}
+-----------------------------------------------------
+---- For more scripts and updates, visit ------------
+--------- https://discord.gg/trase ------------------
+-----------------------------------------------------
 
-config.discord = { -- Required trase_discord: https://github.com/ImTrase/trase_discord
-    enabled = true,
-    role = '', -- The discord role of the donator, ensure the value is "number"
-    refresh = { -- A command to refresh permissions. (Used to prevent discord rate limits) [ONLY FOR DISCORD PERMS]
-        enabled = true, -- Enable commmand?
-        command = 'pedrefresh', -- The command to refresh perms
-        cooldown = 10 -- Seconds to wait between usage
-    }
+Config = {}
+
+Config.Command = {
+    Enabled = true, -- Enable or disable the command
+    Command = 'pedmenu',
+    RequiredRole = 22222, -- Discord role id or FALSE (requires: https://github.com/ImTrase/trase_discord)
 }
 
-config.peds = {
-    [1] = {label = 'DC', model = `a_m_m_fatlatin_01`},
-    [2] = {label = 'Monkey', model = `a_c_chimp`},
+Config.Peds = {
+    {
+        Name = 'Michael',
+        Model = `player_zero`,
+        Description = 'Become Michael De Santa',
+    },
+    {
+        Name = 'Franklin',
+        Model = `player_one`,
+        Description = 'Become Franklin Clinton',
+    },
+    {
+        Name = 'Trevor',
+        Model = `player_two`,
+        Description = 'Become Trevor Philips',
+    },
 }
