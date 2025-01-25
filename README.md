@@ -1,7 +1,7 @@
 # t-pedmenu
 FiveM Whitelisted Ped-Menu
 
-Preview: https://youtu.be/mXAOzjNnttA
+Preview: [https://youtu.be/mXAOzjNnttA](https://youtu.be/mx75bIY-G4s)
 Docs / Installation Guide: https://docs.trase.dev/
 
 ## 🌐 Features
